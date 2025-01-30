@@ -1,5 +1,5 @@
 {
-    "name": "@elizaos/client-lens",
+    "name": "@elizaos-plugins/client-lens",
     "version": "0.1.8+build.1",
     "type": "module",
     "main": "dist/index.js",
