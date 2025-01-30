@@ -18,6 +18,7 @@ export default defineConfig({
         "form-data",
         "axios",
         "agentkeepalive",
+        "@elizaos/core",
         // Add other modules you want to externalize
     ],
 });
