@@ -1,8 +1,5 @@
-declare const LensClientInterface: {
-    name: string;
-    config: {};
-    start: (runtime: any) => Promise<any>;
-    stop: (runtime: any) => Promise<void>;
-};
+import { Plugin } from '@elizaos/core';
 
-export { LensClientInterface as default };
+declare const lensPlugin: Plugin;
+
+export { lensPlugin as default };
